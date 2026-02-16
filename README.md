@@ -1,7 +1,7 @@
 # Employee Shift Scheduler App
 
-![App Screenshot](shift sceduler 1.png)
-![App Screenshot](shift sceduler 2.png)
+![App Screenshot](shift scheduler 1.png)
+![App Screenshot](shift scheduler 2.png)
 
 ---
 
