@@ -1,0 +1,1309 @@
+{
+  "employees": {
+    "EMP1000": {
+      "id": "EMP1000",
+      "name": "John Smith",
+      "role": "Manager",
+      "max_hours_week": 40.0,
+      "min_hours_week": 20.0,
+      "hire_date": "2022-01-15",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1001": {
+      "id": "EMP1001",
+      "name": "Jane Doe",
+      "role": "Cashier",
+      "max_hours_week": 35.0,
+      "min_hours_week": 15.0,
+      "hire_date": "2022-03-10",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1002": {
+      "id": "EMP1002",
+      "name": "Bob Johnson",
+      "role": "Stocker",
+      "max_hours_week": 40.0,
+      "min_hours_week": 10.0,
+      "hire_date": "2022-06-22",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1003": {
+      "id": "EMP1003",
+      "name": "Alice Brown",
+      "role": "Cashier",
+      "max_hours_week": 30.0,
+      "min_hours_week": 10.0,
+      "hire_date": "2023-01-05",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1004": {
+      "id": "EMP1004",
+      "name": "Charlie Wilson",
+      "role": "Supervisor",
+      "max_hours_week": 40.0,
+      "min_hours_week": 20.0,
+      "hire_date": "2021-11-30",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1005": {
+      "id": "EMP1005",
+      "name": "Diana Prince",
+      "role": "Cashier",
+      "max_hours_week": 25.0,
+      "min_hours_week": 8.0,
+      "hire_date": "2023-02-14",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1006": {
+      "id": "EMP1006",
+      "name": "Edward Nygma",
+      "role": "Stocker",
+      "max_hours_week": 35.0,
+      "min_hours_week": 12.0,
+      "hire_date": "2023-03-01",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1007": {
+      "id": "EMP1007",
+      "name": "Fiona Glen",
+      "role": "Cleaner",
+      "max_hours_week": 30.0,
+      "min_hours_week": 8.0,
+      "hire_date": "2023-04-18",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1008": {
+      "id": "EMP1008",
+      "name": "George Costanza",
+      "role": "Assistant",
+      "max_hours_week": 30.0,
+      "min_hours_week": 10.0,
+      "hire_date": "2023-05-22",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1009": {
+      "id": "EMP1009",
+      "name": "Hannah Abbott",
+      "role": "Cashier",
+      "max_hours_week": 25.0,
+      "min_hours_week": 8.0,
+      "hire_date": "2023-06-30",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1010": {
+      "id": "EMP1010",
+      "name": "Ian Malcolm",
+      "role": "Security",
+      "max_hours_week": 40.0,
+      "min_hours_week": 20.0,
+      "hire_date": "2023-07-15",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    },
+    "EMP1011": {
+      "id": "EMP1011",
+      "name": "Julia Chang",
+      "role": "Manager",
+      "max_hours_week": 35.0,
+      "min_hours_week": 15.0,
+      "hire_date": "2023-08-01",
+      "active": true,
+      "notes": "",
+      "morning_pref": 3,
+      "evening_pref": 3,
+      "night_pref": 3,
+      "preferred_days": [],
+      "avoid_days": [],
+      "preferred_coworkers": [],
+      "avoid_coworkers": [],
+      "pref_weights": {
+        "hours_fairness": 0.3,
+        "day_preference": 0.2,
+        "shift_preference": 0.2,
+        "coworker_preference": 0.15,
+        "seniority": 0.15
+      }
+    }
+  },
+  "availabilities": {
+    "EMP1000": {
+      "employee_id": "EMP1000",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1001": {
+      "employee_id": "EMP1001",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1002": {
+      "employee_id": "EMP1002",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1003": {
+      "employee_id": "EMP1003",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1004": {
+      "employee_id": "EMP1004",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1005": {
+      "employee_id": "EMP1005",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1006": {
+      "employee_id": "EMP1006",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1007": {
+      "employee_id": "EMP1007",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1008": {
+      "employee_id": "EMP1008",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1009": {
+      "employee_id": "EMP1009",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1010": {
+      "employee_id": "EMP1010",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    },
+    "EMP1011": {
+      "employee_id": "EMP1011",
+      "weekly": {
+        "0": {
+          "day_of_week": 0,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "1": {
+          "day_of_week": 1,
+          "time_ranges": [
+            {
+              "start": "09:00",
+              "end": "17:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "2": {
+          "day_of_week": 2,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "3": {
+          "day_of_week": 3,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "4": {
+          "day_of_week": 4,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "5": {
+          "day_of_week": 5,
+          "time_ranges": [
+            {
+              "start": "14:00",
+              "end": "22:00"
+            }
+          ],
+          "unavailable_all_day": false
+        },
+        "6": {
+          "day_of_week": 6,
+          "time_ranges": [],
+          "unavailable_all_day": false
+        }
+      },
+      "exceptions": []
+    }
+  },
+  "shift_requirements": {
+    "Morning (8am-4pm)": {
+      "shift_type": "Morning (8am-4pm)",
+      "role_requirements": {
+        "Cashier": 2,
+        "Manager": 1,
+        "Stocker": 1
+      }
+    },
+    "Evening (4pm-12am)": {
+      "shift_type": "Evening (4pm-12am)",
+      "role_requirements": {
+        "Cashier": 3,
+        "Manager": 1,
+        "Stocker": 1
+      }
+    },
+    "Overnight (12am-8am)": {
+      "shift_type": "Overnight (12am-8am)",
+      "role_requirements": {
+        "Cashier": 1,
+        "Security": 1,
+        "Manager": 1
+      }
+    },
+    "Custom": {
+      "shift_type": "Custom",
+      "role_requirements": {
+        "Cashier": 2,
+        "Stocker": 1
+      }
+    }
+  },
+  "schedules": [
+    {
+      "week_start": "2026-02-09",
+      "shifts": [
+        {
+          "id": "SH1000",
+          "date": "2026-02-09",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1001",
+          "date": "2026-02-09",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1002",
+          "date": "2026-02-10",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1003",
+          "date": "2026-02-10",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1004",
+          "date": "2026-02-11",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1005",
+          "date": "2026-02-11",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1006",
+          "date": "2026-02-12",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1007",
+          "date": "2026-02-12",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1008",
+          "date": "2026-02-13",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1009",
+          "date": "2026-02-13",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1010",
+          "date": "2026-02-14",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1011",
+          "date": "2026-02-14",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        },
+        {
+          "id": "SH1012",
+          "date": "2026-02-15",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Cashier",
+          "assigned_employees": [],
+          "required_count": 2,
+          "notes": ""
+        },
+        {
+          "id": "SH1013",
+          "date": "2026-02-15",
+          "shift_type": "Morning (8am-4pm)",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "role": "Manager",
+          "assigned_employees": [],
+          "required_count": 1,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "law_constraints": {
+    "max_hours_per_day": 12.0,
+    "min_hours_per_day": 2.0,
+    "max_hours_per_week": 40.0,
+    "min_rest_between_shifts": 8.0,
+    "max_consecutive_days": 6,
+    "required_break_after_hours": 5.0,
+    "overtime_threshold": 40.0,
+    "overtime_multiplier": 1.5,
+    "minor_restrictions": false,
+    "max_days_per_week": 7
+  },
+  "next_employee_id": 1012,
+  "next_shift_id": 1014
+}
