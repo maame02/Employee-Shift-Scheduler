@@ -182,9 +182,11 @@ When manual mode is on:
 ---
 
 # More App Screenshots
-
+##Employee tab
+![App Screenshot](ss2.png)
+##Availability tab
 ![App Screenshot](ss3.png)
+##Reports tab
 ![App Screenshot](ss4.png)
-![App Screenshot](ss5.png)
-![App Screenshot](ss6.png)
+
 
