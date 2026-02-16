@@ -1,7 +1,7 @@
 # Employee Shift Scheduler App
 
-![App Screenshot](shift scheduler 1.png)
-![App Screenshot](shift scheduler 2.png)
+![App Screenshot](ss1.png)
+![App Screenshot](ss2.png)
 
 ---
 
@@ -180,4 +180,11 @@ When manual mode is on:
 7. Export or print  
 
 ---
+
+# More App Screenshots
+
+![App Screenshot](ss3.png)
+![App Screenshot](ss4.png)
+![App Screenshot](ss5.png)
+![App Screenshot](ss6.png)
 
